@@ -1,6 +1,6 @@
 {
   "name": "autostructure-laravel",
-  "version": "1.0.7",
+  "version": "1.0.10",
   "author": "autostructure",
   "summary": "Installs laravel.",
   "license": "Apache-2.0",
@@ -23,27 +23,15 @@
   ],
   "operatingsystem_support": [
     {
-      "operatingsystem": "Debian",
+      "operatingsystem": "CentOS",
       "operatingsystemrelease": [
-        "8"
+        "7.0"
       ]
     },
     {
       "operatingsystem": "RedHat",
       "operatingsystemrelease": [
         "7.0"
-      ]
-    },
-    {
-      "operatingsystem": "Ubuntu",
-      "operatingsystemrelease": [
-        "16.04"
-      ]
-    },
-    {
-      "operatingsystem": "windows",
-      "operatingsystemrelease": [
-        "2012 R2"
       ]
     }
   ],

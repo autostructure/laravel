@@ -47,6 +47,10 @@ class laravel::install {
     ensure => present,
   }
 
+  package { 'php71u-mysqlnd':
+    ensure => present,
+  }
+
   package { 'php71u-zip':
     ensure => present,
   }
