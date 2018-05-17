@@ -42,9 +42,7 @@
 #
 # Copyright 2017 Your name here, unless otherwise noted.
 #
-class laravel(
-  String $version = '5.4.30',
-) {
+class laravel {
   class { '::laravel::install': }
   -> class { '::laravel::configure': }
   ~> class { '::laravel::run': }
