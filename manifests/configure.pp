@@ -14,7 +14,7 @@ class laravel::configure {
     line   => 'cgi.fix_pathinfo=0',
   }
 
-  file { '/etc/nginx/default.d/default':
+  file { '/etc/nginx/nginx.conf':
     ensure => file,
     source => 'puppet:///modules/laravel/default',
   }
